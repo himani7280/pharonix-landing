@@ -1,0 +1,395 @@
+{
+  "Pharonix": {
+    "fonts": {
+      "googleFontsHref": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap",
+      "preconnectHref": "https://fonts.googleapis.com",
+      "preconnectStaticHref": "https://fonts.gstatic.com",
+      "fontVars": {
+        "--font-body": "\"DM Sans\", system-ui, sans-serif",
+        "--font-heading": "\"Product Sans\", DM Sans, system-ui, sans-serif"
+      },
+      "heading": {
+        "family": "Product Sans",
+        "cdnUrl": "https://fonts.cdnfonts.com/css/google-sans",
+        "fallback": "DM Sans, system-ui, sans-serif"
+      },
+      "body": {
+        "family": "DM Sans",
+        "fallback": "system-ui, sans-serif"
+      },
+      "googleFonts": [
+        {
+          "family": "DM Sans",
+          "spec": "wght@400;500;600;700",
+          "weights": ["400", "500", "600", "700"]
+        }
+      ]
+    },
+
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "PharonixHeader1",
+          "Footer": "PharonixFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              { "key": "Home",         "component": "PharonixHome1" },
+              { "key": "About",        "component": "PharonixAbout1" },
+              { "key": "Expertise",    "component": "PharonixExpertise1" },
+              { "key": "Products",     "component": "PharonixProducts1" },
+              { "key": "Research",     "component": "PharonixResearch1" },
+              { "key": "Testimonials", "component": "PharonixTestimonials1" },
+              { "key": "Faqs",         "component": "PharonixFaqs1" },
+              { "key": "Contact",      "component": "PharonixContact1" }
+            ]
+          }
+        }
+      }
+    },
+
+    "sections": {
+      "SiteChrome": {
+        "variants": {
+          "PharonixHeader1": {
+            "site": {
+              "titleDefault": "Pharonix | Pharmaceuticals & Healthcare",
+              "titleTemplate": "%s | Pharonix",
+              "description": "Pharonix is a research-driven pharmaceutical company delivering innovative, high-quality and affordable medicines for healthier lives worldwide.",
+              "copyrightPrefix": "Copyright © 2026.",
+              "copyrightSuffix": "All rights reserved. Powered by",
+              "poweredBy": "Lestow",
+              "htmlLang": "en"
+            },
+            "brand": {
+              "name": "PHARONIX",
+              "tagline": "Pharmaceuticals & Healthcare",
+              "footerName": "PHARONIX",
+              "phone": "+1 00000 00000",
+              "email": "info@xyz.com",
+              "address": "350 Fifth Avenue, Suite 5100, New York, NY 10118, USA"
+            },
+            "navLinks": [
+              { "label": "Home",                  "href": "#home" },
+              { "label": "About Us",               "href": "#about" },
+              { "label": "Our Expertise",          "href": "#expertise" },
+              { "label": "Our Products",           "href": "#products" },
+              { "label": "Research & Development", "href": "#research" },
+              { "label": "Testimonials",           "href": "#testimonials" },
+              { "label": "FAQs",                   "href": "#faqs" }
+            ],
+            "navbar": {
+              "homeHref": "#home",
+              "homeAriaLabel": "Pharonix home",
+              "mainNavAriaLabel": "Main",
+              "mobileNavAriaLabel": "Mobile",
+              "openMenuLabel": "Open menu",
+              "closeMenuLabel": "Close menu",
+              "cta": {
+                "label": "Contact",
+                "href": "#contact"
+              }
+            },
+            "cta": {
+              "label": "Contact",
+              "href": "#contact"
+            }
+          },
+          "PharonixFooter1": {
+            "blurb": "Delivering high-quality pharmaceutical solutions for a healthier community.",
+            "quickLinksTitle": "Quick Links",
+            "productsTitle": "Our Products",
+            "productsHref": "#products",
+            "contactTitle": "Get in Touch",
+            "scrollTopHref": "#home",
+            "scrollTopLabel": "Scroll to top",
+            "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+            "socials": [
+              { "key": "facebook",  "label": "Facebook",  "href": "https://www.facebook.com" },
+              { "key": "instagram", "label": "Instagram", "href": "https://www.instagram.com" },
+              { "key": "linkedin",  "label": "LinkedIn",  "href": "https://www.linkedin.com" },
+              { "key": "youtube",   "label": "YouTube",   "href": "https://www.youtube.com" }
+            ],
+            "quickLinks": [
+              { "label": "Home",       "href": "#home" },
+              { "label": "About Us",   "href": "#about" },
+              { "label": "Products",   "href": "#products" },
+              { "label": "Quality",    "href": "#expertise" },
+              { "label": "Contact Us", "href": "#contact" }
+            ],
+            "products": [
+              "Tablets",
+              "Capsules",
+              "Syrups",
+              "Injectables",
+              "Ointments & Creams",
+              "Drops"
+            ]
+          }
+        }
+      },
+
+      "Media": {
+        "variants": {
+          "PharonixImages1": {
+            "images": {
+              "logo":          "/images/logo.webp",
+              "footerLogo":    "/images/logo.webp",
+              "heroBg":        "/images/hero-bg.webp",
+              "aboutArt":      "/images/about-art.webp",
+              "manufacturing": "/images/expertise-manufacturing.webp",
+              "rnd":           "/images/expertise-rnd.webp",
+              "quality":       "/images/expertise-quality.webp",
+              "healthcare":    "/images/expertise-healthcare.webp",
+              "tablets":       "/images/tablets.webp",
+              "syrups":        "/images/syrups.webp",
+              "capsules":      "/images/capsules.webp",
+              "ointments":     "/images/ointments.webp",
+              "injectables":   "/images/injectables.webp",
+              "drops":         "/images/drops.webp",
+              "inhalers":      "/images/inhalers.webp",
+              "powders":       "/images/powders.webp",
+              "research":      "/images/research.webp",
+              "doctor":        "/images/doctor.webp",
+              "doctor2":       "/images/doctor-2.webp",
+              "doctor3":       "/images/doctor-3.webp"
+            }
+          }
+        }
+      },
+
+      "Home": {
+        "variants": {
+          "PharonixHome1": {
+            "metadata": {
+              "title": "Pharonix | Pharmaceuticals & Healthcare",
+              "description": "We are committed to delivering innovative, high-quality and affordable pharmaceutical solutions for healthier lives worldwide."
+            },
+            "hero": {
+              "eyebrow": "Trusted Pharmaceutical Partner",
+              "titleLine1": "Advancing Health",
+              "titleLine2": "for a Better Tomorrow",
+              "text": "Innovative, high-quality and affordable pharmaceutical solutions for healthier lives worldwide.",
+              "image": "heroBg",
+              "imageAlt": "Scientist examining samples under a microscope",
+              "primaryCta":   { "label": "Our Products", "href": "#products" },
+              "secondaryCta": { "label": "About Us",     "href": "#about" }
+            },
+            "about": {
+              "eyebrow": "About Pharonix",
+              "titleLine1": "A Trusted Partner in",
+              "titleLine2": "Pharmaceutical Healthcare",
+              "text": "PHARONIX is a research-driven pharmaceutical company dedicated to developing, manufacturing and delivering high-quality, affordable medicines that improve the health and well-being of people worldwide.",
+              "artImage": "aboutArt",
+              "artImageAlt": "Medical shield with flask, vial and capsules",
+              "points": [
+                "High-quality and safe pharmaceutical formulations",
+                "Advanced R&D and modern manufacturing facilities",
+                "Commitment to global healthcare and better patient outcomes"
+              ],
+              "stats": [
+                {
+                  "icon": "flask",
+                  "value": 10,
+                  "suffix": "+ Years",
+                  "label": "of Pharmaceutical Expertise"
+                },
+                {
+                  "icon": "users",
+                  "value": 500,
+                  "suffix": "+",
+                  "label": "Healthcare Professionals"
+                }
+              ]
+            },
+            "expertise": {
+              "eyebrow": "Our Expertise",
+              "titlePlain": "Comprehensive",
+              "titleAccent": "Pharmaceutical Expertise",
+              "text": "From research and development to manufacturing and delivery, we bring end-to-end pharmaceutical capabilities to improve global health.",
+              "items": [
+                {
+                  "icon": "flask",
+                  "title": "Pharmaceutical Manufacturing",
+                  "text": "High-quality, compliant and scalable manufacturing of a wide range of formulations.",
+                  "image": "manufacturing"
+                },
+                {
+                  "icon": "microscope",
+                  "title": "Research & Development",
+                  "text": "Innovative R&D to develop safe, effective and affordable healthcare solutions.",
+                  "image": "rnd"
+                },
+                {
+                  "icon": "shield",
+                  "title": "Quality Assurance",
+                  "text": "Stringent quality control and testing to ensure safety, efficacy and global standards.",
+                  "image": "quality"
+                },
+                {
+                  "icon": "pill",
+                  "title": "Healthcare Solutions",
+                  "text": "A diverse portfolio of trusted medicines across key therapeutic segments.",
+                  "image": "healthcare"
+                }
+              ]
+            },
+            "products": {
+              "eyebrow": "Our Products",
+              "titlePlain": "A Wide Range of",
+              "titleAccent": "Pharmaceutical Products",
+              "text": "A comprehensive portfolio of high-quality, safe and effective medicines to support better health and well-being.",
+              "items": [
+                { "icon": "tablet",  "label": "Tablets",            "image": "tablets" },
+                { "icon": "bottle",  "label": "Syrups",             "image": "syrups" },
+                { "icon": "pill",    "label": "Capsules",           "image": "capsules" },
+                { "icon": "tube",    "label": "Ointments & Creams", "image": "ointments" },
+                { "icon": "syringe", "label": "Injectables",        "image": "injectables" },
+                { "icon": "drop",    "label": "Drops",              "image": "drops" },
+                { "icon": "inhaler", "label": "Inhalers",           "image": "inhalers" },
+                { "icon": "sachet",  "label": "Powders & Sachets",  "image": "powders" }
+              ]
+            },
+            "research": {
+              "eyebrow": "Research & Development",
+              "titlePlain": "Advancing Healthcare",
+              "titleAccent": "Through Innovation",
+              "text": "Our R&D efforts focus on developing innovative, high-quality and patient-centric pharmaceutical solutions that address evolving healthcare needs.",
+              "image": "research",
+              "imageAlt": "Laboratory research with test tubes and pipette",
+              "items": [
+                { "icon": "flask",      "label": "New\nFormulations" },
+                { "icon": "network",    "label": "Product\nDevelopment" },
+                { "icon": "microscope", "label": "Clinical\nResearch" },
+                { "icon": "shield",     "label": "Safety &\nCompliance" }
+              ]
+            },
+            "testimonials": {
+              "eyebrow": "Testimonials",
+              "titlePlain": "What Our",
+              "titleAccent": "Clients Say",
+              "text": "Trusted by healthcare professionals and partners for our quality, reliability and commitment to better health.",
+              "items": [
+                {
+                  "name": "Dr. Anjali Sharma",
+                  "role": "Consultant Pathologist",
+                  "quote": "Pharonix maintains outstanding quality standards. Every batch is consistent and delivery is always on time, which our patients depend on.",
+                  "image": "doctor2"
+                },
+                {
+                  "name": "Dr. Rohan Mehta",
+                  "role": "General Physician",
+                  "quote": "A reliable pharmaceutical partner with excellent product quality and consistent support. Their team is highly professional and responsive to our needs.",
+                  "image": "doctor"
+                },
+                {
+                  "name": "Vikram Chadha",
+                  "role": "Distribution Partner",
+                  "quote": "Transparent dealings, dependable supply and a wide portfolio. Working with Pharonix has helped us grow our healthcare business steadily.",
+                  "image": "doctor3"
+                }
+              ]
+            },
+            "faqs": {
+              "eyebrow": "FAQs",
+              "titlePlain": "Frequently Asked",
+              "titleAccent": "Questions",
+              "text": "Find quick answers to common questions about our products, quality, regulations and services.",
+              "items": [
+                {
+                  "q": "What types of pharmaceutical products do you offer?",
+                  "a": "We offer a wide range of high-quality pharmaceutical products, including tablets, capsules, syrups, injectables, ointments and other healthcare formulations."
+                },
+                {
+                  "q": "Are your products quality certified?",
+                  "a": "Yes. Our products are manufactured in compliant facilities with strict quality control, batch testing and documented quality systems."
+                },
+                {
+                  "q": "Do you follow international regulatory standards?",
+                  "a": "We follow applicable national and international regulatory guidelines, including GMP practices, across development, manufacturing and distribution."
+                },
+                {
+                  "q": "Can you support contract manufacturing or private labeling?",
+                  "a": "Yes. We partner with healthcare brands for contract manufacturing and private labeling. Contact our team to discuss your requirements."
+                },
+                {
+                  "q": "How do you ensure product safety and consistency?",
+                  "a": "Through validated processes, rigorous in-process and finished product testing, and traceable batch records for every release."
+                }
+              ]
+            },
+            "contact": {
+              "eyebrow": "Contact Us",
+              "titlePlain": "Get in",
+              "titleAccent": "Touch",
+              "text": "Have a question, inquiry or partnership opportunity? We're here to help. Reach out to our team today.",
+              "cards": [
+                {
+                  "icon": "pin",
+                  "title": "Our Office",
+                  "lines": ["350 Fifth Avenue, Suite 5100,", "New York, NY 10118, USA"]
+                },
+                {
+                  "icon": "phone",
+                  "title": "Call Us",
+                  "lines": ["+1 00000 00000"]
+                },
+                {
+                  "icon": "mail",
+                  "title": "Email Us",
+                  "lines": ["info@xyz.com"]
+                }
+              ],
+              "form": {
+                "title": "Send Us a Message",
+                "submit": "Send Message",
+                "success": "Thank you! Your message has been received. Our team will get back to you shortly.",
+                "fields": {
+                  "namePlaceholder": "Your Name",
+                  "emailPlaceholder": "Your Email",
+                  "phonePlaceholder": "Phone Number",
+                  "subjectPlaceholder": "Subject",
+                  "messagePlaceholder": "Your Message"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "layout": {
+      "maxWidth": "1349px",
+      "container": "mx-auto w-full max-w-[1349px]",
+      "section": "px-4 sm:px-6 lg:px-[calc(28*var(--u))] py-[clamp(28px,4vw,56px)]",
+      "htmlLang": "en",
+      "htmlClass": "h-full scroll-smooth scroll-pt-[76px] antialiased",
+      "bodyClass": "flex min-h-full flex-col overflow-x-hidden bg-white text-[15px] leading-[1.7] text-[#23232b] font-medium [text-rendering:optimizeLegibility] selection:bg-[#86213f] selection:text-white [&_:focus-visible]:rounded-md [&_:focus-visible]:outline-2 [&_:focus-visible]:outline-offset-2 [&_:focus-visible]:outline-[#86213f]",
+      "bodyStyle": {
+        "fontFamily": "\"DM Sans\", system-ui, sans-serif",
+        "--u": "calc(100vw / 1349)"
+      }
+    },
+
+    "typography": {
+      "heroEyebrow": "flex flex-wrap items-center gap-x-2.5 gap-y-1.5 text-[11px] font-semibold uppercase tracking-[0.1em] text-[#23232b] sm:text-[12px] sm:tracking-[0.16em] md:text-[13px] lg:text-[length:calc(18.5*var(--u))] lg:tracking-[0.26em]",
+      "heroTitle": "text-[clamp(1.6rem,6vw,3rem)] font-bold leading-[1.18] tracking-tight text-[#23232b] lg:text-[length:calc(78*var(--u))] lg:leading-[calc(74*var(--u))]",
+      "heroTitleAccent": "text-[#86213f]",
+      "h2": "font-bold tracking-tight text-[clamp(1.4rem,3.5vw,2.5rem)] leading-[1.15] lg:text-[length:calc(52*var(--u))]",
+      "p": "text-[clamp(14px,1.4vw,20px)] leading-[1.65] text-[#55555e]",
+      "accentColor": "#86213f",
+      "textColor": "#23232b",
+      "mutedColor": "#55555e"
+    },
+
+    "brand": {
+      "primaryColor": "#86213f",
+      "primaryHover": "#6c1a32",
+      "primaryLight": "#f6e3e8",
+      "textDark": "#23232b",
+      "textMuted": "#55555e",
+      "borderColor": "#eadde1"
+    }
+  }
+}
