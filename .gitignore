@@ -36,10 +36,13 @@ yarn-error.log*
 # vercel
 .vercel
 
+<<<<<<< HEAD
 # design assets & build scripts
 /scripts/design/
 package-lock.json
 
+=======
+>>>>>>> e3913ea1a12cc633f691f7e7c96415d662cc2acc
 # typescript
 *.tsbuildinfo
 next-env.d.ts

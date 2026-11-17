@@ -51,7 +51,11 @@ export function Navbar() {
       <header
         className={`fixed inset-x-0 top-0 z-40 bg-white transition-shadow duration-300 ${scrolled ? "shadow-[0_8px_30px_-12px_rgba(60,10,30,0.25)]" : "shadow-[0_6px_24px_-14px_rgba(60,10,30,0.18)]"}`}
       >
+<<<<<<< HEAD
         <div className="mx-auto flex h-[58px] max-w-[1349px] items-center justify-between px-3 sm:px-4 sm:h-[62px] lg:h-[calc(96*var(--u))] lg:gap-[calc(20*var(--u))] lg:px-[calc(28*var(--u))]">
+=======
+        <div className="mx-auto flex h-[58px] max-w-[1349px] items-center justify-between px-3 sm:px-4 sm:h-[62px] lg:h-[calc(96*var(--u))] lg:max-w-none lg:gap-[calc(20*var(--u))] lg:px-[calc(28*var(--u))]">
+>>>>>>> e3913ea1a12cc633f691f7e7c96415d662cc2acc
           <div className="flex items-center">
             <a href="#home" aria-label="Pharonix home" onClick={() => setOpen(false)} className="shrink-0">
               <Logo priority className="w-[130px] sm:w-[150px] lg:w-[calc(198*var(--u))]" />

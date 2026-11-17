@@ -11,7 +11,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
+<<<<<<< HEAD
     <html lang="en" suppressHydrationWarning style={{ "--u": "calc(min(100vw, 1349px) / 1349)" } as React.CSSProperties} className="h-full scroll-smooth scroll-pt-[76px] antialiased">
+=======
+    <html lang="en" suppressHydrationWarning style={{ "--u": "calc(100vw / 1349)" } as React.CSSProperties} className="h-full scroll-smooth scroll-pt-[76px] antialiased">
+>>>>>>> e3913ea1a12cc633f691f7e7c96415d662cc2acc
       <head>
         {/* Preconnect & font links — all URLs come from data.json */}
         <link rel="preconnect" href={FONT_PRECONNECT} />

@@ -12,13 +12,21 @@ import { CheckIcon, NamedIcon } from "@/lib/icons";
 
 const { about, expertise, products, research, testimonials, faqs, contact } = HOME;
 
+<<<<<<< HEAD
 const SECTION_CONTAINER = "mx-auto max-w-[1349px] px-4 sm:px-6 lg:px-[calc(28*var(--u))] xl:px-8";
+=======
+const SECTION_CONTAINER = "px-4 sm:px-6 lg:px-[calc(28*var(--u))] xl:px-8";
+>>>>>>> e3913ea1a12cc633f691f7e7c96415d662cc2acc
 const SECTION_SPACING = "py-[clamp(28px,4vw,56px)] lg:py-[clamp(32px,calc(28*var(--u)),56px)]";
 const EYEBROW_CLASS = "flex flex-wrap items-center gap-x-2.5 gap-y-1.5 text-[11px] font-semibold uppercase tracking-[0.1em] text-[#23232b] sm:gap-x-3.5 sm:text-[12px] sm:tracking-[0.16em] md:text-[13px] md:tracking-[0.2em] lg:flex-nowrap lg:gap-[calc(18*var(--u))] lg:text-[length:calc(18.5*var(--u))] lg:tracking-[0.26em] xl:text-[18.5px]";
 const EYEBROW_LINE_CLASS = "h-[2.5px] w-6 shrink-0 rounded bg-[#86213f] sm:h-[3px] sm:w-10 lg:h-[calc(3.5*var(--u))] lg:w-[calc(50*var(--u))] xl:w-[48px]";
 const SUBTEXT_CLASS = "mt-3 sm:mt-3.5 text-[clamp(14px,1.8vw,20px)] font-normal leading-[1.65] text-[#55555e] xl:leading-[28px]";
 
+<<<<<<< HEAD
 const unit = { "--u": "calc(min(100vw, 1349px) / 1349)" } as CSSProperties;
+=======
+const unit = { "--u": "calc(100vw / 1349)" } as CSSProperties;
+>>>>>>> e3913ea1a12cc633f691f7e7c96415d662cc2acc
 
 export default function Home() {
   return (
