@@ -47,7 +47,7 @@ const IconBox = ({ children, className = "" }: { children: React.ReactNode; clas
 export function Footer() {
   return (
     <footer className="relative overflow-hidden bg-white pt-5 sm:pt-6 md:pt-7 lg:pt-[calc(26*var(--u))] xl:pt-7">
-      <div className="relative mx-auto grid max-w-[1349px] gap-10 px-4 sm:px-6 lg:grid-cols-[1fr_auto_auto] xl:grid-cols-[493px_323px_1fr] xl:gap-0 xl:px-[52px]">
+      <div className="relative mx-auto grid max-w-[1349px] gap-10 px-3 sm:px-4 lg:px-[calc(28*var(--u))] lg:grid-cols-[1fr_auto_auto] xl:grid-cols-[493px_323px_1fr] xl:gap-0">
         <div className="pr-0 xl:pr-[40px]">
           <Logo className="w-[260px] xl:w-[430px]" />
           <p className="mt-5 max-w-[400px] text-[18px] leading-[28px] text-[#16161b] xl:ml-[8px] xl:mt-[16px] xl:text-[21px]">{FOOTER.blurb}</p>
@@ -149,7 +149,7 @@ export function Footer() {
       </div>
 
       <div className="bg-[#86213f] text-white">
-        <p className="mx-auto max-w-[1349px] px-4 py-5 text-[15px] sm:px-6 xl:px-[52px] xl:py-[21px] xl:text-[19.5px]">{FOOTER.copyright}</p>
+        <p className="mx-auto max-w-[1349px] px-3 sm:px-4 lg:px-[calc(28*var(--u))] py-5 text-[15px] xl:py-[21px] xl:text-[19.5px]">{FOOTER.copyright}</p>
       </div>
     </footer>
   );
